@@ -1,0 +1,28 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 30px; */
+  height: 100vh;
+}
+
+.social_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+  width: 210px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid hsl(0, 0%, 8%);;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+}

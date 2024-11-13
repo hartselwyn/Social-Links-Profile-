@@ -1,0 +1,72 @@
+.author_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author_img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.author_name {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.author_location {
+    color: hsl(75, 94%, 57%);
+    margin-top: -.5rem;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.author_discription {
+    color: hsl(0, 0%, 100%);
+    font-size: 9px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin-bottom: .5rem;
+}
+
+.social_links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 5px;
+    width: 100%;
+    gap: 8px;
+    padding: 5px;
+    background-color: hsl(0, 0%, 20%);
+    transition: background-color 0.5s ease-in-out, trasnform 0.5s ease-in-out;
+}
+
+.social_links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .social_links a {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
